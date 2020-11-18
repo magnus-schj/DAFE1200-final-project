@@ -34,3 +34,11 @@ nav ul {
 #logo {
   flex: 2 1 40rem;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1343px) {
+  #logo {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
