@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-style: italic;
 }
 
 li {
@@ -33,6 +34,23 @@ nav ul {
 
 #logo {
   flex: 2 1 40rem;
+}
+
+/* Header */
+header {
+  background: lightgray;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 4rem;
+}
+
+header h2 {
+  padding: 2rem;
+}
+
+button {
+  border: none;
 }
 
 /* MEDIA QUERIES */
