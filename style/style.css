@@ -5,12 +5,31 @@
   box-sizing: border-box;
 }
 
+li {
+  list-style-type: none;
+}
+
 /* NAV */
 nav {
-  min-height: 10vh;
   background: grey;
+}
+
+.nav-container {
+  min-height: 10vh;
   display: flex;
-  width: 90%;
   align-items: center;
   justify-content: space-around;
+  margin: auto;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 40rem;
+}
+
+#logo {
+  flex: 2 1 40rem;
 }
