@@ -1,0 +1,16 @@
+/* GLOBALL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAV */
+nav {
+  min-height: 10vh;
+  background: grey;
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-around;
+}
