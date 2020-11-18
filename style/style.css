@@ -49,8 +49,41 @@ header h2 {
   padding: 2rem;
 }
 
-button {
+/* button {
   border: none;
+} */
+
+header a {
+  opacity: 0.5;
+}
+header a:hover {
+  opacity: 1;
+}
+
+/* MAIN */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 3% 0 10%;
+  background-color: #eee;
+}
+
+.main-container > div {
+  width: 30vw;
+  height: 20vw;
+  margin: 3%;
+  border: 2px solid black;
+}
+
+.box-title {
+  position: relative;
+  top: -13px;
+  left: 10px;
+  padding: 0 3px;
+  background-color: #eee;
+  color: black;
 }
 
 /* MEDIA QUERIES */
