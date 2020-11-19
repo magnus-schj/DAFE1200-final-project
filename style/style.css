@@ -8,11 +8,6 @@
 }
 
 body {
-  background-image: url(../images/field.jpg);
-  /*Bilde av Jahoo Clouseau fra Pexels*/
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 li {
@@ -69,16 +64,30 @@ header a:hover {
 }
 
 /* MAIN */
+
 .main-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   padding: 3% 0 10%;
+  font-size: larger;
+  background-color: white;
   /*background-color: #eee;*/
 }
 
+.main-container p, h1 {
+  padding: 15px;
+}
+
+.main-container img {
+  width: 100%;
+  height: 390px;
+}
+
 .main-container > div {
+  /*width: 30vw;
+  height: 20vw;*/
   width: 30vw;
   height: 20vw;
   margin: 3%;
@@ -101,15 +110,12 @@ header a:hover {
   background-color: blue;
   text-decoration: none;
   vertical-align: middle;
+  text-align: center;
   width: 50px;
   height: 50px;
   border-radius: 10px;
+  margin: 10px;
   padding: 5px 10px 5px 10px;
-}
-
-.content-box a {
-  padding: 20px;
-  margin: 30px;
 }
 
 /* MEDIA QUERIES */
