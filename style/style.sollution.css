@@ -1,0 +1,33 @@
+/* HEADER */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  margin: auto;
+  width: 90%;
+}
+section {
+  background: grey;
+}
+
+.generic-container {
+  padding: 5rem 0;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.generic-container h1,
+h2,
+p {
+  margin: 3rem;
+}
+
+.generic-container li {
+  margin: 1rem;
+}
