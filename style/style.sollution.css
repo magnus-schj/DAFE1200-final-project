@@ -27,3 +27,8 @@ h2,
 p {
   margin: 3rem;
 }
+
+.icon-container {
+  height: 200px;
+  width: 200px;
+}
