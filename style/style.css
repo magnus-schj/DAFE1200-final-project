@@ -25,7 +25,7 @@ nav {
   top: 0;
   width: 100vw;
   background: #7fbd32;
-  transition: 1s ease;
+
   position: fixed;
 }
 
@@ -38,6 +38,7 @@ nav {
   margin: auto;
   padding: 2rem;
   width: 90%;
+  transition-property:none ;
 }
 
 nav ul {
@@ -52,6 +53,7 @@ nav ul {
   transition: 0.5s ease-in-out;
   color: black;
   font-size: clamp(1em, 1.5vw, 4em);
+
 }
 .nav-container a::after {
   content: "";
@@ -74,7 +76,7 @@ header{
 }
 /*dinne koden gjelde for alle sub sidene*/
 header h3{
-padding:10px 5px 10px 5px;
+padding: 10px 5px 10px 5px;
 border-radius: 5px;
 background-color: wheat;
 }
