@@ -9,7 +9,7 @@ header {
   width: 90%;
 }
 section {
-  background: grey;
+  background: #6ca527;
 }
 
 .generic-container {
@@ -26,8 +26,4 @@ section {
 h2,
 p {
   margin: 3rem;
-}
-
-.generic-container li {
-  margin: 1rem;
 }
