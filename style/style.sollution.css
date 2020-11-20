@@ -7,9 +7,23 @@ header {
   min-height: 90vh;
   margin: auto;
   width: 90%;
+  
 }
 section {
   background: #6ca527;
+}
+.sub-header{
+  background-color: white;
+  text-align: center;
+  padding: 5px 10px 10px 10px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 2px;
+}
+.sub-header h3{
+  width: 20vw;
+  margin-left:20%;
+  
 }
 
 .generic-container {
