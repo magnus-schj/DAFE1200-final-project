@@ -34,7 +34,8 @@ li {
 nav {
 
   background-color: #b6cec7;
-  position: static;
+  position: fixed;
+  z-index: 1;
   top: 0;
   width: 100%;
   padding: 0 1vw;
@@ -66,9 +67,33 @@ nav ul {
   transition: 0.5s ease-in-out;
   background-color: white;
 }
+
 .nav-container a{
   font-size: clamp(1.2em, 2.5vw, 2em);
 }
+
+.nav-container a {
+  font-size: clamp(1.4em 2.5vw 3em);
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  color: black;
+  font-size: clamp(1em, 1.5vw, 4em);
+}
+
+.nav-container a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  transition: 0.5s ease;
+  background-color: teal;
+}
+
+.nav-container ul a:hover::after {
+  width: 100%;
+  transition: 0.5s ease;
+}
+
 
 .language-container li a {
   padding: 2vh 0.5vw;
@@ -85,10 +110,6 @@ header h2 {
   transition-property:none ;
 }
 
-/* button {
-  border: none;
-} */
-
 header a {
   opacity: 0.5;
 }
@@ -101,6 +122,10 @@ header img {
   padding-top: 10px;
 }
 
+.header-header h2{
+margin-left:4vw;
+}
+
 /* MAIN */
 
 .main-container {
@@ -111,26 +136,6 @@ header img {
   padding: 3% 0 10%;
   font-size: 23.2px;
   background-color: #d8e0bb;
-}
-.nav-container a {
-  font-size: clamp(1.4em 2.5vw 3em);
-  text-decoration: none;
-  transition: 0.5s ease-in-out;
-  color: black;
-  font-size: clamp(1em, 1.5vw, 4em);
-
-}
-.nav-container a::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  transition: 0.5s ease;
-  background-color: teal;
-}
-.nav-container ul a:hover::after {
-  width: 100%;
-  transition: 0.5s ease;
 }
 
 header{
