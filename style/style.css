@@ -23,25 +23,27 @@ li {
 /* NAVBAR */
 nav {
   background-color: #b6cec7;
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 nav ul {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  /* flex: 1 1 40rem; */
-  /* height: 10vh; */
-  height: 7vh;
-  margin: auto;
-  /* padding: 1rem; */
 }
 
-nav li {
-  /* display: flex;
-  justify-content: left; */
-  padding: 2rem;
+.nav-container li {
+  padding: 2vh 1vw;
+}
+
+.language-container {
+
 }
 
 nav li:hover {
