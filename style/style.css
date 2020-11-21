@@ -132,6 +132,13 @@ h1 {
   padding: 5px 10px 5px 10px;
 }
 
+main a {
+  opacity: 0.75;
+}
+main a:hover {
+  opacity: 1;
+}
+
 /* Footer */
 footer {
   text-align: center;
@@ -150,6 +157,13 @@ footer {
   width: 49%;
   height: 49%;
   display: inline-block;
+}
+
+footer a {
+  opacity: 0.75;
+}
+footer a:hover {
+  opacity: 1;
 }
 
 /* MEDIA QUERIES */
