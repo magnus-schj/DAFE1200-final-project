@@ -1,3 +1,4 @@
-.first-image image{
- filter: grayscale(100%);
+.second-image{
+    filter: grayscale(100%);
+    
 }

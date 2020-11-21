@@ -19,8 +19,7 @@ a{text-decoration: none;
 color: black;}
 body {
   font-family:'roboto',sans-serif;
-    background:
-    url(../image/s.jpg);
+  
     background-size: cover;
     background-attachment: fixed;
 }
@@ -42,7 +41,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-=======
+
   top: 0;
   width: 100vw;
   background: #7fbd32;
@@ -72,22 +71,10 @@ nav ul {
 }
 
 .language-container li a {
-  display: inline-flex;
-  background: #b6cec7;
   padding: 2vh 0.5vw;
 }
 
-
-
-/* #logo {
-  flex: 2 1 40rem;
-} */
-
-/* Header */
 header {
-  align-items: center;
-  text-align: center;
-  margin: auto;
   padding: 4rem;
   font-size: 23.2px;
 }
@@ -145,8 +132,8 @@ header img {
   width: 100%;
   transition: 0.5s ease;
 }
+
 header{
-  min-height: 50vh;
   width: 90vw;
   margin-left: auto;
   margin-right:auto;
@@ -156,36 +143,17 @@ header{
 header h3{
 padding: 10px 5px 10px 5px;
 border-radius: 5px;
-background-color: wheat;
+
 }
 
 header a{
-  cursor: initial;
+  cursor: pointer;
 }
 
 header h2{
-  margin-top: 50vh;
+  margin-top: 25vh;
 }
 
-.header_header{
-  margin-left: 15vw;
-  width: 60vw;
-background-color: wheat;
-border-radius: 15px;
-transition: 0.5s;
-}
-
-.header_header:hover{
-  transition: 0.5s;
-  background-color:rgb(226, 176, 90);
-
-  
-  cursor:pointer;
-}
-
-.header_header h2{
-padding-top: 25px;
-}
 
 
 #main{
@@ -197,13 +165,9 @@ padding-top: 25px;
 }
 .sub-container{
 
-  border-color: black;
-  background-color: white;
-  min-height: 40vh;
-  width: 40vw;
-  display: inline-flex;
-  flex-direction: column;
-  margin: 5vw 2vw 2vw 2vw;
+  min-width: 35vw;
+height: clamp(25em, 45vw, 100em);
+text-align: center;
 }
 .box-title{
   font-size:clamp(1.4em, 2.5vw, 4em) ;
@@ -241,6 +205,7 @@ h1 {
 
 /* Read more button */
 .readMore {
+  
   color: white;
   background-color: blue;
   text-decoration: none;
@@ -290,31 +255,3 @@ footer a:hover {
   color: #ea202c;
 }
 
-/* MEDIA QUERIES */
-@media screen and (max-width: 1343px) {
-  #logo {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  nav {
-    display: block;
-    text-align: center;
-  }
-
-  nav ul {
-    display: block;
-  }
-
-  .language-container a {
-    padding: 0vh 0vh;
-
-/* ANIMATIONS */
-@keyframes animasjon1 {
-  100% {
-    background-color: white;
-
-  }
-}
