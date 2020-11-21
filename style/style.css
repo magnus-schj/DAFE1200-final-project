@@ -41,14 +41,11 @@ nav ul {
   padding: 2vh 1vw;
 }
 
-<<<<<<< HEAD
 .language-container a {
   background: #b6cec7;
   padding: 2vh 0.5vw;
 }
 
-=======
->>>>>>> 1cae207273668deeb41eb167f2018f91e77ddf25
 nav li:hover {
   background-color: white;
 }
