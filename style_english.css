@@ -2,3 +2,9 @@
     filter: grayscale(100%);
 
 }
+.second-image {
+    padding: 3px 5px 3px 5px;
+    border-radius: 3px;
+    background-color: white;
+    margin-left: 5px;
+}
