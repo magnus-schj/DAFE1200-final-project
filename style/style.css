@@ -32,7 +32,8 @@ nav ul {
   align-items: center;
   justify-content: flex-start;
   /* flex: 1 1 40rem; */
-  height: 10vh;
+  /* height: 10vh; */
+  height: 7vh;
   margin: auto;
   /* padding: 1rem; */
 }
@@ -57,6 +58,7 @@ header {
   text-align: center;
   margin: auto;
   padding: 4rem;
+  font-size: 23.2px;
 }
 
 header h2 {
@@ -82,7 +84,7 @@ header a:hover {
   justify-content: center;
   align-content: center;
   padding: 3% 0 10%;
-  font-size: larger;
+  font-size: 23.2px;
   background-color: #d8e0bb;
 }
 
@@ -136,7 +138,8 @@ footer {
 }
 
 .footer-container a {
-  background-color: red;
+  background-color: #b6cec7;
+  color: black;
 }
 
 .footer-container {
