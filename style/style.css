@@ -1,15 +1,25 @@
 /* GLOBALL STYLES */
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 a{text-decoration: none;
 color: black;}
 body {
   font-family:'roboto',sans-serif;
-    background:
-    url(../image/s.jpg);
+  
     background-size: cover;
     background-attachment: fixed;
 }
@@ -22,30 +32,85 @@ li {
 
 /* NAVBAR */
 nav {
+
+  background-color: #b6cec7;
+  position: static;
+  top: 0;
+  width: 100%;
+  padding: 0 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   top: 0;
   width: 100vw;
   background: #7fbd32;
 
   position: fixed;
-}
 
-.nav-container {
-  min-height: 10vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: auto;
-  padding: 2rem;
-  width: 90%;
-  transition-property:none ;
 }
 
 nav ul {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  flex: 1 1 40rem;
+  justify-content: flex-start;
+}
+
+.nav-container li {
+  margin-left: 10px;
+  padding: 2vh 1vw;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+}
+.nav-container li:hover{
+  transition: 0.5s ease-in-out;
+  background-color: white;
+}
+.nav-container a{
+  font-size: clamp(1.2em, 2.5vw, 2em);
+}
+
+.language-container li a {
+  padding: 2vh 0.5vw;
+}
+
+header {
+  padding: 4rem;
+  font-size: 23.2px;
+}
+
+header h2 {
+  padding: 2rem;
+  width: 90%;
+  transition-property:none ;
+}
+
+/* button {
+  border: none;
+} */
+
+header a {
+  opacity: 0.5;
+}
+
+header a:hover {
+  opacity: 1;
+}
+
+header img {
+  padding-top: 10px;
+}
+
+/* MAIN */
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 3% 0 10%;
+  font-size: 23.2px;
+  background-color: #d8e0bb;
 }
 .nav-container a {
   font-size: clamp(1.4em 2.5vw 3em);
@@ -67,8 +132,8 @@ nav ul {
   width: 100%;
   transition: 0.5s ease;
 }
+
 header{
-  min-height: 50vh;
   width: 90vw;
   margin-left: auto;
   margin-right:auto;
@@ -78,36 +143,17 @@ header{
 header h3{
 padding: 10px 5px 10px 5px;
 border-radius: 5px;
-background-color: wheat;
+
 }
 
 header a{
-  cursor: initial;
+  cursor: pointer;
 }
 
 header h2{
-  margin-top: 50vh;
+  margin-top: 25vh;
 }
 
-.header_header{
-  margin-left: 15vw;
-  width: 60vw;
-background-color: wheat;
-border-radius: 15px;
-transition: 0.5s;
-}
-
-.header_header:hover{
-  transition: 0.5s;
-  background-color:rgb(226, 176, 90);
-
-  
-  cursor:pointer;
-}
-
-.header_header h2{
-padding-top: 25px;
-}
 
 
 #main{
@@ -119,13 +165,9 @@ padding-top: 25px;
 }
 .sub-container{
 
-  border-color: black;
-  background-color: white;
-  min-height: 40vh;
-  width: 40vw;
-  display: inline-flex;
-  flex-direction: column;
-  margin: 5vw 2vw 2vw 2vw;
+  min-width: 35vw;
+height: clamp(25em, 45vw, 100em);
+text-align: center;
 }
 .box-title{
   font-size:clamp(1.4em, 2.5vw, 4em) ;
@@ -133,24 +175,83 @@ padding-top: 25px;
 text-align: center;
 }
 
-#logo {
-  flex: 2 1 40rem;
+.main-container p,
+h1 {
+  padding: 15px;
+}
+
+.main-container img {
+  /* object-fit: scale-down; */
+  width: 100%;
+  height: 100%;
+}
+
+.main-container > div {
+  /*width: 30vw;
+  height: 20vw;*/
+  width: 400px;
+  height: 300px;
+  margin: 3%;
+  background-color: white;
+}
+
+.box-title {
+  position: relative;
+  top: -13px;
+  left: 10px;
+  padding: 0 3px;
+  color: black;
+}
+
+/* Read more button */
+.readMore {
+  
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+  vertical-align: middle;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+main a {
+  opacity: 0.75;
+}
+main a:hover {
+  opacity: 1;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-container a {
+  background-color: #b6cec7;
+  color: black;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 49%;
+  height: 49%;
+  display: inline-block;
+}
+
+footer a {
+  opacity: 0.75;
+}
+footer a:hover {
+  opacity: 1;
 }
 #logo a {
   color: #ea202c;
 }
 
-/* MEDIA QUERIES */
-@media screen and (max-width: 1343px) {
-  #logo {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-}
-
-/* ANIMATIONS */
-@keyframes animasjon1 {
-  100% {
-    background-color: white;
-  }
-}
