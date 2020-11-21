@@ -1,0 +1,3 @@
+.language-container a :first-child image{
+    filter: grayscale(50%);
+}
