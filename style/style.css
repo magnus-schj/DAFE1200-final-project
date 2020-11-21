@@ -74,8 +74,13 @@ header h2 {
 header a {
   opacity: 0.5;
 }
+
 header a:hover {
   opacity: 1;
+}
+
+header img {
+  padding-top: 10px;
 }
 
 /* MAIN */
@@ -182,5 +187,9 @@ footer a:hover {
 
   nav ul {
     display: block;
+  }
+
+  .language-container a {
+    padding: 0vh 0vh;
   }
 }
