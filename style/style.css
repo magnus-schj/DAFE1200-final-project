@@ -15,8 +15,8 @@ a {
   text-decoration: none;
   color: black;
 }
-a{text-decoration: none;
-color: black;}
+
+
 body {
   font-family:'roboto',sans-serif;
   
@@ -94,9 +94,16 @@ nav ul {
   transition: 0.5s ease;
 }
 
-
+.language-container{
+  margin-right: 3vw;
+  display: flex;
+  flex-direction:column ;
+}
 .language-container li a {
   padding: 2vh 0.5vw;
+}
+.language-container :last-child{
+  margin-top: 2px;
 }
 
 header {
