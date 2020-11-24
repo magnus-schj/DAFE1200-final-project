@@ -16,7 +16,6 @@ a {
   color: black;
 }
 
-
 a {
   text-decoration: none;
   color: black;
@@ -97,16 +96,16 @@ nav ul {
   transition: 0.5s ease;
 }
 
-.language-container{
+.language-container {
   margin-right: 3vw;
   display: flex;
-  flex-direction:column ;
+  flex-direction: column;
 }
 
 .language-container li a {
   padding: 2vh 0.5vw;
 }
-.language-container :last-child{
+.language-container :last-child {
   margin-top: 2px;
 }
 
