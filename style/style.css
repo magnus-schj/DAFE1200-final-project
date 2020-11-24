@@ -160,9 +160,7 @@ header h2 {
 #main {
   border-radius: 15px;
   background-color: navy;
-  max-width: 90vw;
   min-height: 100vh;
-  margin-left: 5vw;
 }
 .sub-container {
   min-width: 35vw;
