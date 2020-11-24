@@ -8,8 +8,6 @@
 .challenge_text{
     text-align: left;
 
-
-
 }
 .main-container {
     display: flex;
@@ -18,7 +16,7 @@
     align-content: center;
     padding: 3% 0 10%;
     font-size: 23.2px;
-    background-image:url("https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?cs=srgb&dl=pexels-leonid-danilov-2768961.jpg&fm=jpg");
+  /*  background-image:url("https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?cs=srgb&dl=pexels-leonid-danilov-2768961.jpg&fm=jpg");*/
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -47,7 +45,6 @@ header h2{
 }
 
 
-
 #main{
     border-radius: 15px;
   /*  background-color: navy; */
@@ -65,7 +62,7 @@ header h2{
     text-align: center;
 }
 
-.main-container p,
+
 h1 {
     padding: 15px;
 }
