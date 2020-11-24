@@ -1,0 +1,20 @@
+.challenge_container {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+.challenge_div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 30px 15px;
+}
+
+.challenge_head {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.challenge_img {
+
+}

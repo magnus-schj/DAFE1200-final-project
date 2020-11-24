@@ -15,10 +15,13 @@ a {
   text-decoration: none;
   color: black;
 }
+
+
 a {
   text-decoration: none;
   color: black;
 }
+
 body {
   font-family: "roboto", sans-serif;
 
@@ -94,8 +97,17 @@ nav ul {
   transition: 0.5s ease;
 }
 
+.language-container{
+  margin-right: 3vw;
+  display: flex;
+  flex-direction:column ;
+}
+
 .language-container li a {
   padding: 2vh 0.5vw;
+}
+.language-container :last-child{
+  margin-top: 2px;
 }
 
 header {
@@ -159,9 +171,11 @@ header h2 {
 
 #main {
   border-radius: 15px;
+  max-width:90vw;
   background-color: navy;
   min-height: 100vh;
 }
+
 .sub-container {
   min-width: 35vw;
   height: clamp(25em, 45vw, 100em);
@@ -184,14 +198,6 @@ h1 {
   height: 100%;
 }
 
-.main-container > div {
-  /*width: 30vw;
-  height: 20vw;*/
-  width: 400px;
-  height: 300px;
-  margin: 3%;
-  background-color: white;
-}
 
 .box-title {
   position: relative;
