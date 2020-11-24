@@ -1,0 +1,76 @@
+/*.challenge_container{
+    display: flex;
+    flex-wrap: nowrap;
+    Text-align: left;
+    padding: 30px 15px;
+
+}*/
+.challenge_text{
+    text-align: left;
+
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 3% 0 10%;
+    font-size: 23.2px;
+  /*  background-image:url("https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?cs=srgb&dl=pexels-leonid-danilov-2768961.jpg&fm=jpg");*/
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+#main {
+    border-radius: 15px;
+   /* background-color: lightcoral; */
+    max-width: 90vw;
+    min-height: 100vh;
+    margin-left: 5vw;
+
+}
+
+header h3{
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+
+}
+header a{
+    cursor: pointer;
+}
+
+header h2{
+    margin-top: 25vh;
+}
+
+
+#main{
+    border-radius: 15px;
+  /*  background-color: navy; */
+    max-width:90vw;
+    min-height: 100vh;
+    margin-left: 5vw;
+}
+.sub-container{
+    text-align: left;
+    flex:wrap;
+}
+.box-title{
+    font-size:clamp(1.4em, 2.5vw, 4em) ;
+    font-family:'roboto',sans-serif;
+    text-align: center;
+}
+
+
+h1 {
+    padding: 15px;
+}
+.main-container > div {
+    /*width: 30vw;
+    height: 20vw;*/
+    width: 400px;
+    height: 600px;
+    margin: 3%;
+    background-color: white;
+}
