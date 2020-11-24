@@ -45,6 +45,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   top: 0;
   width: 100vw;
   background: #7fbd32;
@@ -169,6 +170,7 @@ header h2 {
 
 #main {
   border-radius: 15px;
+  max-width: 90vw;
   background-color: navy;
   min-height: 100vh;
 }
