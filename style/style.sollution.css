@@ -45,7 +45,10 @@ header h2 {
   font-size: 1.5rem;
 }
 .generic-container p {
-  font-size: 1.5rem;
+  font-size: clamp(0.7rem, 2vw, 2rem);
+}
+.generic-container img {
+  width: 100%;
 }
 .text-container {
   background: white;
@@ -53,14 +56,13 @@ header h2 {
   padding: 3rem;
 }
 /* MEDIA QUERIES */
-@media screen and (max-width: 1984px) {
-  .generic-container img {
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 423px) {
   header h1 {
     margin-top: 5rem;
+  }
+}
+@media screen and (max-width: 210px) {
+  .text-container {
+    padding: 1.5rem;
   }
 }
