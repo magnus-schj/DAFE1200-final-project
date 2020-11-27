@@ -20,9 +20,9 @@ header h1 {
   font-size: clamp(1.7rem, 2vw, 4rem);
 }
 header h2 {
-  font-size: clamp(1.4rem, 1.7vw, 3.8rem);
+  font-size: clamp(1.1rem, 1.7vw, 3.8rem);
 }
-
+/* MAIN-CONTAINER */
 .generic-container {
   padding: 5rem 0;
   margin: auto;
@@ -56,6 +56,12 @@ header h2 {
 @media screen and (max-width: 1984px) {
   .generic-container img {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .text-container img {
+    width: ;
   }
 }
 
