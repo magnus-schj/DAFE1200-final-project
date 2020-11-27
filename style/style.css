@@ -45,12 +45,16 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   top: 0;
-  width: 100vw;
   background: #7fbd32;
-
+  flex-wrap: wrap;
   position: fixed;
+}
+
+#not-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav ul {
@@ -97,7 +101,6 @@ nav ul {
 }
 
 .language-container {
-  margin-right: 3vw;
   display: flex;
   flex-direction: column;
 }
@@ -108,6 +111,8 @@ nav ul {
 .language-container :last-child {
   margin-top: 2px;
 }
+
+/* HEADER */
 
 header {
   padding: 4rem;
@@ -261,6 +266,19 @@ footer a {
 footer a:hover {
   opacity: 1;
 }
-#logo a {
-  color: #ea202c;
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 499px) {
+  #logo {
+    margin: auto;
+  }
+  #not-logo {
+    justify-content: space-around;
+  }
+  .nav-container {
+    flex: 6 1 40rem;
+  }
+  .language-container {
+    flex: 1 1 40rem;
+  }
 }
