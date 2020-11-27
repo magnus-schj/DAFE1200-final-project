@@ -268,15 +268,16 @@ footer a:hover {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 423px) {
   #logo {
     margin: auto;
   }
   #not-logo {
     justify-content: space-around;
+    width: 100%;
   }
   .nav-container {
-    flex: 6 1 40rem;
+    flex: 1 1 40rem;
   }
   .language-container {
     flex: 1 1 40rem;
