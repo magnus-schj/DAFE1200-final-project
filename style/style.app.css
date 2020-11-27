@@ -1,0 +1,21 @@
+.app_section {
+  width: 90vw;
+  margin-left: 5vw;
+  margin-bottom: 2vh;
+}
+.pictureandinfo {
+  display: flex;
+  flex-direction: row;
+}
+.pageinfo {
+  min-width: 50vw;
+  min-height: 40vh;
+  background-color: #8ee21f;
+  margin-right: 2.5vw;
+  margin-left: 2.5vw;
+  margin-bottom: 2vw;
+}
+
+.pagepicture {
+  margin-bottom: 2vw;
+}
