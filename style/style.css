@@ -84,20 +84,6 @@ nav ul {
   font-size: clamp(1em, 1.5vw, 4em);
 }
 
-.nav-container a::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  transition: 0.5s ease;
-  background-color: teal;
-}
-
-.nav-container ul a:hover::after {
-  width: 100%;
-  transition: 0.5s ease;
-}
-
 .language-container {
   display: flex;
   flex-direction: column;
