@@ -59,12 +59,6 @@ header h2 {
   }
 }
 
-@media screen and (max-width: 800px) {
-  .text-container img {
-    width: ;
-  }
-}
-
 @media screen and (max-width: 423px) {
   header h1 {
     margin-top: 5rem;
