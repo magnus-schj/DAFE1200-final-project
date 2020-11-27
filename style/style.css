@@ -167,10 +167,6 @@ header a {
   cursor: pointer;
 }
 
-header h2 {
-  margin-top: 25vh;
-}
-
 #main {
   border-radius: 15px;
   min-height: 100vh;
