@@ -16,16 +16,8 @@ a {
   color: black;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
 body {
   font-family: "roboto", sans-serif;
-
-  background-size: cover;
-  background-attachment: fixed;
 }
 h1 {
   color: black;
@@ -119,7 +111,6 @@ header {
 
 header h2 {
   padding: 2rem;
-  width: 90%;
   transition-property: none;
 }
 
