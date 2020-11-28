@@ -72,7 +72,7 @@ nav ul {
 }
 
 .nav-container a {
-  font-size: clamp(1.4em 2.5vw 3em);
+  font-size: clamp(2.7em 5vw 3em);
   text-decoration: none;
   transition: 0.5s ease-in-out;
   color: black;
@@ -155,6 +155,8 @@ header a {
   text-align: center;
   border-radius: 5px;
 }
+
+
 .box-title {
   font-size: clamp(1.4em, 2.5vw, 4em);
   font-family: "roboto", sans-serif;
