@@ -24,6 +24,7 @@ h1 {
 }
 li {
   list-style-type: none;
+  font-size: clamp(0.9rem, 1.4vw, 3.4rem);
 }
 
 /* NAVBAR */
@@ -63,10 +64,6 @@ nav ul {
 .nav-container li:hover {
   transition: 0.5s ease-in-out;
   background-color: white;
-}
-
-.nav-container a {
-  font-size: clamp(0.7em, 2.5vw, 2em);
 }
 
 .nav-container a {
