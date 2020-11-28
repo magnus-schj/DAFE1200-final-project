@@ -63,13 +63,14 @@ header h2 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .example-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0.5rem;
   padding: 1rem;
   border-radius: 10px;
   height: 15rem;
