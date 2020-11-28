@@ -1,7 +1,0 @@
-.header-header h3::after{
-content: "";
-width: 100%;
-height: 2px;
-background-color: green;
-display:block
-}
