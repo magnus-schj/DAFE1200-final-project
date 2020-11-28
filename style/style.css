@@ -68,7 +68,11 @@ nav ul {
 }
 
 .nav-container a {
+<<<<<<< HEAD
 
+=======
+  font-size: clamp(1.4em 2.5vw 3em);
+>>>>>>> parent of 60c5098... f
   text-decoration: none;
   transition: 0.5s ease-in-out;
   color: black;
@@ -150,8 +154,6 @@ header a {
   height: clamp(25em, 45vw, 100em);
   text-align: center;
 }
-
-
 .box-title {
   font-size: clamp(1.4em, 2.5vw, 4em);
   font-family: "roboto", sans-serif;
