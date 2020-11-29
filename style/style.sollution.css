@@ -5,9 +5,11 @@ body {
 
 h1 {
   font-size: clamp(1.4rem, 2vw, 3.8rem);
+  text-transform: uppercase;
 }
 h2 {
-  font-size: clamp(0.8rem, 1.7vw, 3.3rem);
+  font-size: clamp(1.8rem, 1.7vw, 3.3rem);
+
 }
 
 /* HEADER */
