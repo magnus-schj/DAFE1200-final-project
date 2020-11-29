@@ -5,6 +5,15 @@
     padding: 30px 15px;
 
 }*/
+
+h2{
+    text-transform: uppercase;
+}
+
+a h3{
+    text-align: center;
+}
+
 .challenge_text{
     text-align: left;
 
@@ -40,9 +49,6 @@ header a{
     cursor: pointer;
 }
 
-header h2{
-    margin-top: 25vh;
-}
 
 
 #main{
@@ -53,9 +59,27 @@ header h2{
     margin-left: 5vw;
 }
 .sub-container{
-    text-align: left;
+    border-radius: 5px;
     flex:wrap;
 }
+.sub-container p{
+    text-align: left;
+}
+
+main a::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 1px;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+}
+
+main a::after:hover{
+transition: 0.5s ease-in-out;
+width: 100%;
+}
+
 .box-title{
     font-size:clamp(1.4em, 2.5vw, 4em) ;
     font-family:'roboto',sans-serif;
