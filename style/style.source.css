@@ -47,3 +47,9 @@ main {
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 453px) {
+  .source-title {
+    margin-top: 50px;
+  }
+}
