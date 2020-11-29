@@ -225,7 +225,7 @@ main a:hover {
   justify-content: center;
   align-content: center;
   color: white;
-  text-shadow: 0 0 10px darkolivegreen;
+
 }
 
 .goal-column a {
@@ -242,6 +242,14 @@ main a:hover {
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
+}
+.goal-text a{
+  font-weight: bolder;
+  transition: 0.2s;
+}
+.goal-text a:hover{
+  transition: 0.2s;
+  text-shadow: 1px 2px #818d58;
 }
 
 .goal-column-2 {
