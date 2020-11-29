@@ -4,6 +4,7 @@
   margin-left: 5vw;
   margin-bottom: 2vh;
   background-color: #d8e0bb;
+  border-radius: 5px;
 }
 
 .app_section h1{
@@ -14,6 +15,7 @@
 .pictureandinfo {
   display: flex;
   flex-direction: row;
+
 }
 .pageinfo {
   padding-left: 10px;
@@ -23,7 +25,7 @@ font-size: clamp(0.8em,2vw,3em);
   margin-right: 10vw;
   margin-left: 2.5vw;
   margin-bottom: 2vw;
-
+border-radius: 5px;
 }
 
 .pagepicture {
@@ -32,7 +34,7 @@ font-size: clamp(0.8em,2vw,3em);
 }
 
 .pagepicture img{
-  width: 20vw;
+  width: clamp(50px,20vw,500px) ;
   height: auto;
 }
 
