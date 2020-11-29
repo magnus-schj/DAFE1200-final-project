@@ -1,5 +1,10 @@
 /* Kilder */
 
+main{
+  width: 90vw;
+  margin-left: 5vw;
+}
+
 .source-title {
   display: flex;
   flex-wrap: wrap;
