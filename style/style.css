@@ -90,6 +90,7 @@ nav ul {
 /* HEADER */
 
 header {
+  min-height: 100vh;
   padding: 4rem;
   font-size: 23.2px;
 }
@@ -110,8 +111,6 @@ header a:hover {
 header img {
   padding-top: 10px;
 }
-
-
 
 /* MAIN */
 
