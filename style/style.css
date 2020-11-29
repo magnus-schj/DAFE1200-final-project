@@ -214,6 +214,8 @@ footer {
 .footer-container a {
   background-color: #0000ff;
   color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .footer-container {
