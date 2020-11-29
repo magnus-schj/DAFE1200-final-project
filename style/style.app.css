@@ -1,25 +1,54 @@
+
 .app_section {
   width: 90vw;
   margin-left: 5vw;
   margin-bottom: 2vh;
   background-color: #d8e0bb;
+  border-radius: 5px;
 }
+
+.app_section h1{
+  text-align: center;
+  font-size: clamp(0.8em,4vw,4em);
+}
+
 .pictureandinfo {
   display: flex;
   flex-direction: row;
+
 }
 .pageinfo {
+  padding-left: 10px;
   min-width: 50vw;
-  min-height: 40vh;
+font-size: clamp(0.8em,2vw,3em);
   background-color: #8ee21f;
-  margin-right: 2.5vw;
+  margin-right: 10vw;
   margin-left: 2.5vw;
   margin-bottom: 2vw;
+border-radius: 5px;
 }
 
 .pagepicture {
+  width: 20vw;
+  height: auto;
 }
 
-.pagepicture image {
-  width: 1px;
+.pagepicture img{
+  width: clamp(50px,20vw,500px) ;
+  height: auto;
+}
+
+footer{
+  bottom: 0;
+  background-color:#9ace5b ;
+  height: 10vh;
+  width: 100vw;
+ margin-bottom: -20px;
+}
+.footer-container{
+  position: relative;
+margin-top: 24px;
+}
+.footer-container a{
+  border: black groove 10px;
 }

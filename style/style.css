@@ -18,6 +18,8 @@ a {
 
 body {
   font-family: "roboto", sans-serif;
+  position: absolute;
+  margin-top: 100px;
 }
 h1 {
   color: black;
@@ -67,11 +69,10 @@ nav ul {
 }
 
 .nav-container a {
-  font-size: clamp(1.4em 2.5vw 3em);
   text-decoration: none;
   transition: 0.5s ease-in-out;
   color: black;
-  font-size: clamp(1em, 1.5vw, 4em);
+  font-size: clamp(1.2em, 1.5vw, 4em);
 }
 
 .language-container {
@@ -110,9 +111,7 @@ header img {
   padding-top: 10px;
 }
 
-.header-header h2 {
-  margin-left: 4vw;
-}
+
 
 /* MAIN */
 
