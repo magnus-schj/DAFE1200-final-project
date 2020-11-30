@@ -219,12 +219,12 @@ main a:hover {
 
 .goal-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
   flex-wrap: wrap;
   width: 100%;
   height: 200px;
-  padding: 0 5%;
+  padding: 3% 5%;
   background-color: #a9b971;
 }
 
@@ -235,28 +235,23 @@ main a:hover {
   color: white;
 }
 
-.goal-column a {
-  color: white;
-}
-
 .goal-column-1 {
-  width: 30%;
+  width: 35%;
 }
-
 .goal-text {
   display: flex;
   align-items: center;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: center;
+  font-size: 18px;
+  line-height: 1.25;
 }
 .goal-text a {
-  font-weight: bolder;
   transition: 0.2s;
+  text-decoration: underline;
+  color: white;
 }
 .goal-text a:hover {
   transition: 0.2s;
-  text-shadow: 1px 2px #818d58;
+  /* text-shadow: 1px 2px #818d58; */
 }
 
 .goal-column-2 {
@@ -266,9 +261,8 @@ main a:hover {
 }
 
 .goal-column-3 {
-  width: 30%;
+  width: 35%;
 }
-
 .goal-box {
   display: flex;
   flex-direction: column;
@@ -279,23 +273,20 @@ main a:hover {
   margin-right: 20px;
   line-height: 1;
 }
-
 .goal-word {
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
 .goal-number {
   font-size: 60px;
   font-weight: bold;
 }
-
 .goal-desc {
   display: flex;
   align-items: center;
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.25;
   text-transform: uppercase;
 }
 
@@ -315,23 +306,69 @@ footer {
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 255, 0.75);
 }
 
+.footer-container-b a {
+  background-color: #0000ff;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 255, 0.75);
+}
+
 .footer-container {
-  display: flex;
   flex-wrap: wrap;
   width: 49%;
   height: 49%;
   display: inline-block;
+  margin-bottom: 15px;
+  
 }
 
 footer a {
   opacity: 0.75;
 }
+
 footer a:hover {
   opacity: 1;
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 255, 1);
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .goal-column {
+    width: 45%;
+  }
+  .goal-column-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .goal-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .goal-column {
+    width: 100%;
+  }
+  .goal-text {
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 300px) {
+  .goal-text,
+  .goal-desc {
+    font-size: 16px;
+  }
+  .goal-box {
+    margin-right: 10px;
+  }
+  .goal-word {
+    font-size: 18px;
+  }
+  .goal-number {
+    font-size: 50px;
+  }
+}
+
 @media screen and (max-width: 423px) {
   #logo {
     margin: auto;
