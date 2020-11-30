@@ -135,7 +135,7 @@ header img {
   justify-content: center;
   align-content: center;
   padding: 3% 0 10%;
-  font-size: 23.2px;
+  font-size: clamp(1.15rem, 2.5vw, 4rem);
   background-color: #d8e0bb;
 }
 
@@ -175,8 +175,6 @@ h1 {
 }
 
 .main-container > div {
-  /*width: 30vw;
-  height: 20vw;*/
   width: 400px;
   height: 300px;
   margin: 3%;
