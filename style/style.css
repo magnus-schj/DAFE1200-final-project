@@ -15,7 +15,7 @@ a {
 
 body {
   font-family: "roboto", sans-serif;
-  position: absolute;
+  position: relative;
   margin-top: 100px;
 }
 h1 {

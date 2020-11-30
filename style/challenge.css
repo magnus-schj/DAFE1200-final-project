@@ -22,7 +22,7 @@ a h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   padding: 3% 0 10%;
   font-size: 23.2px;
   /*  background-image:url("https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?cs=srgb&dl=pexels-leonid-danilov-2768961.jpg&fm=jpg");*/
