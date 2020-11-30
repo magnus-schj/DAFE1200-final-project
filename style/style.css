@@ -23,7 +23,7 @@ h1 {
 }
 li {
   list-style-type: none;
-  font-size: clamp(0.9rem, 1.4vw, 3.4rem);
+  font-size: clamp(0.7rem, 1.4vw, 3.4rem);
 }
 
 /* NAVBAR */
