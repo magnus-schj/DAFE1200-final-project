@@ -90,16 +90,29 @@ nav ul {
 /* HEADER */
 
 header {
-  min-height: 100vh;
-  padding: 4rem;
-  font-size: 23.2px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
+header h1,
+h2 {
+  margin: 2rem;
+}
+header h1 {
+  font-size: clamp(1.7rem, 4vw, 6rem);
+  text-transform: uppercase;
+}
 header h2 {
+  text-align: center;
+  font-size: clamp(1rem, 3vw, 3rem);
+}
+/* header h2 {
   padding: 2rem;
   transition-property: none;
 }
-
+*/
 header a {
   opacity: 0.5;
 }
@@ -108,9 +121,10 @@ header a:hover {
   opacity: 1;
 }
 
+/*
 header img {
   padding-top: 10px;
-}
+} */
 
 /* MAIN */
 
@@ -122,13 +136,6 @@ header img {
   padding: 3% 0 10%;
   font-size: 23.2px;
   background-color: #d8e0bb;
-}
-
-header {
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 
 header h3 {
@@ -331,12 +338,6 @@ footer a:hover {
   #not-logo {
     justify-content: space-around;
     width: 100%;
-  }
-  .nav-container {
-    flex: 1 1 40rem;
-  }
-  .language-container {
-    flex: 1 1 40rem;
   }
 }
 /* SPRÅKBOKSENE */
