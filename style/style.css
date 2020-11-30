@@ -339,12 +339,6 @@ footer a:hover {
     justify-content: space-around;
     width: 100%;
   }
-  .nav-container {
-    flex: 1 1 40rem;
-  }
-  .language-container {
-    flex: 1 1 40rem;
-  }
 }
 /* SPRÅKBOKSENE */
 @media screen and (max-width: 250px) {
