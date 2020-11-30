@@ -388,3 +388,10 @@ footer a:hover {
     width: 17px;
   }
 }
+
+/* FOOTER */
+@media screen and (max-width: 230px) {
+  .footer-container {
+    margin-left: -12px;
+  }
+}
