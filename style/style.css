@@ -29,6 +29,7 @@ li {
 /* NAVBAR */
 
 nav {
+  min-height: 10vh;
   position: fixed;
   z-index: 1;
   top: 0;
