@@ -1,94 +1,25 @@
-/*.challenge_container{
-    display: flex;
-    flex-wrap: nowrap;
-    Text-align: left;
-    padding: 30px 15px;
-
-}*/
-
-h2 {
-  text-transform: uppercase;
-}
-
-a h3 {
-  text-align: center;
-}
-
-.challenge_text {
-  text-align: left;
-  font-size: clamp(0.8rem, 2vw, 3rem);
-}
-.main-container {
+/* MAIN SECTION */
+main {
+  background: #d8e0bb;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
-  padding: 3% 0 10%;
-  font-size: 23.2px;
-  /*  background-image:url("https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?cs=srgb&dl=pexels-leonid-danilov-2768961.jpg&fm=jpg");*/
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-#main {
-  border-radius: 15px;
-  /* background-color: lightcoral; */
-  max-width: 90vw;
-  min-height: 100vh;
-  margin-left: 5vw;
-}
-
-header h3 {
-  padding: 10px 5px 10px 5px;
-  border-radius: 5px;
-}
-header a {
-  cursor: pointer;
-}
-
-#main {
-  border-radius: 15px;
-  /*  background-color: navy; */
-  max-width: 90vw;
-  min-height: 100vh;
-  margin-left: 5vw;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 90%;
 }
 .sub-container {
+  background: white;
   border-radius: 5px;
-  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1rem;
+  max-height: 21rem;
+  max-width: 10rem;
+  overflow: auto;
+}
+.sub-container h3 {
+  font-size: clamp(1rem, 2vw, 3rem);
 }
 .sub-container p {
-  text-align: left;
-}
-
-main a::after {
-  content: "";
-  display: block;
-  width: 0%;
-  height: 1px;
-  background-color: black;
-  transition: 0.5s ease-in-out;
-}
-
-main a::after:hover {
-  transition: 0.5s ease-in-out;
-  width: 100%;
-}
-
-.box-title {
-  font-size: clamp(1.4em, 2.5vw, 4em);
-  font-family: "roboto", sans-serif;
-  text-align: center;
-}
-
-h1 {
-  padding: 15px;
-}
-.main-container > div {
-  /*width: 30vw;
-    height: 20vw;*/
-  width: 400px;
-  min-height: 600px;
-  margin: 3%;
-  background-color: white;
+  font-size: clamp(0.6rem, 1.3vw, 2rem);
 }
