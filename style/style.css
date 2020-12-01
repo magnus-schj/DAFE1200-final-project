@@ -8,83 +8,28 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
 body {
   font-family: "roboto", sans-serif;
   position: relative;
   margin-top: 100px;
 }
+
 h1 {
   color: black;
 }
-li {
+
+ul {
+  list-style-type: none;
+}
+
+/* li {
   list-style-type: none;
   font-size: clamp(0.9rem, 1.4vw, 3.4rem);
-}
+} */
 
-/* NAVBAR */
-
-nav {
-  min-height: 10vh;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  width: 100%;
-  padding: 0 1vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* background: #9ace5b; */
-  background-color: #c4cca7;
-  flex-wrap: wrap;
-}
-
-#not-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-}
-
-nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.nav-container li {
-  margin-left: 10px;
-  padding: 2vh 1vw;
-  border-radius: 5px;
-  transition: 0.5s ease-in-out;
-}
-.nav-container li:hover {
-  transition: 0.5s ease-in-out;
-  transition-property: background-color;
-  background-color: white;
-}
-
-.nav-container a {
+a {
   text-decoration: none;
-  transition: 0.5s ease-in-out;
   color: black;
-  font-size: clamp(1.2em, 2vw, 4em);
-}
-
-.language-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.language-container li a {
-  padding: 2vh 0.5vw;
-}
-.language-container :last-child {
-  margin-top: 2px;
 }
 
 /* HEADER */
@@ -378,26 +323,6 @@ footer a:hover {
   }
 }
 
-@media screen and (max-width: 461px) {
-  #logo {
-    margin: auto;
-    margin-bottom: -0.2rem;
-  }
-  #not-logo {
-    justify-content: space-around;
-    width: 100%;
-  }
-}
-/* SPRÅKBOKSENE */
-@media screen and (max-width: 250px) {
-  #logo img {
-    height: 40px;
-    width: 40px;
-  }
-  .language-container img {
-    width: 17px;
-  }
-}
 /* FOOTER */
 @media screen and (max-width: 230px) {
   .footer-container {

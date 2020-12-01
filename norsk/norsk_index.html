@@ -3,28 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project | Hovedsiden</title>
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style_norsk.css">
-    <title>Final Project</title>
+    <link rel="stylesheet" href="../style/style.nav.css">
 </head>
 <body>
-     <!-- NAV BAR -->
-     <nav>
-        <h1 id="logo">
-           <a href="norsk_index.html"><img src="../icons/iconmonstr-recycling-15-240.png" alt="Logo" height="50px" width="50px"></a>
-        </h1>
-        <div id="not-logo">
-           <ul class="nav-container">
-               <li><a href="../norsk/norsk_problem.html">Utfordring</a></li>
-               <li><a href="../norsk/norsk_løsning.html">Vår løsning</a></li>
-               <li><a href="../norsk/norsk_app.html">Appen</a></li>
-           </ul>
-           <ul class="language-container">
-               <div class="first-image"><li><a href="../norsk/norsk_index.html"><img src="../icons/norwegian.svg" width="30px" alt="Norwegian" ></a></li></div>
-              <div class="second-image"><li><a href="../index.html"><img src="../icons/english.svg" width="30px" alt="English"> </a></li></div> 
-           </ul>
-        </div>
-   </nav>
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="nav-logo"><a tabindex="1" href="norsk_index.html"><img src="icons/iconmonstr-recycling-15-240.png" alt="Logo" width="25px" height="25px"></a></div>
+        <ul class="nav-container">
+            <li id="challenge"><a tabindex="2" href="norsk_problem.html">Utfordringen</a></li>
+            <li id="solution"><a tabindex="3" href="norsk_løsning.html">Løsningen</a></li>
+            <li id="app"><a tabindex="4" href="norsk_app.html">Appen</a></li>
+        </ul>
+        <ul class="language-container">
+            <li class="norwegian active"><a tabindex="5" href="norsk_index.html"> <span>Norsk</span> <img src="icons/norwegian.svg" height="22px" alt="Norsk" ></a></li>
+            <li class="english"><a tabindex="6" href="../index.html"> <span>English</span> <img src="icons/english.svg" height="22px" alt="English"> </a></li>
+        </ul>
+    </nav>
+
     <header>
         <div class="header-header"><h2>PAWNHUB</h2>
         <h3>THE ULTIMATE REWARD FOR SORTING GARBAGE!</h3></div>
