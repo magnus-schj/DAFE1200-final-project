@@ -106,7 +106,7 @@ header:focus {
   border-radius: 5px;
 }
 .sub-container p {
-  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  font-size: clamp(1.1rem, 2.5vw, 2rem);
 }
 .sub-container a {
   font-size: clamp(1.4rem, 2vw, 2rem);
@@ -330,7 +330,11 @@ footer a:hover {
     font-size: 50px;
   }
 }
-
+@media screen and (max-width: 266px) {
+  header h1 {
+    letter-spacing: normal;
+  }
+}
 /* FOOTER */
 @media screen and (max-width: 230px) {
   .footer-container {
