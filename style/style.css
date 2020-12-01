@@ -99,6 +99,9 @@ header h3 {
 header a {
   cursor: pointer;
 }
+header:focus {
+  outline: none;
+}
 
 #main {
   border-radius: 15px;
