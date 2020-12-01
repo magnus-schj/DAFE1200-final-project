@@ -20,6 +20,11 @@ h1 {
   color: black;
 }
 
+b {
+  color: #308029;
+  font-size: larger;
+}
+
 ul {
   list-style-type: none;
 }
