@@ -30,5 +30,5 @@ h2 h3 {
   font-size: clamp(1rem, 2vw, 3rem);
 }
 p {
-  font-size: clamp(1rem, 1vw, 2rem);
+  font-size: clamp(1rem, 2vw, 2rem);
 }

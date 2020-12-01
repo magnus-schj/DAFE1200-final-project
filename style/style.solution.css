@@ -22,7 +22,7 @@
   list-style-type: disc;
 }
 .generic-container p {
-  font-size: clamp(1rem, 2.5vw, 2rem);
+  font-size: clamp(1rem, 2.9vw, 2rem);
 }
 .generic-container img {
   width: 100%;
