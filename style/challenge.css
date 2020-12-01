@@ -13,22 +13,31 @@ main {
   border-radius: 5px;
   margin: 1rem;
   padding: 0.5rem;
-  max-height: 22rem;
+  max-height: 25rem;
   max-width: 10rem;
-  overflow: auto;
 }
 .sub-container h3 {
-  font-size: clamp(1rem, 2vw, 3rem);
+  font-size: clamp(1.2rem, 2vw, 3rem);
 }
 .sub-container p {
-  font-size: clamp(0.6rem, 1.3vw, 2rem);
+  font-size: clamp(1rem, 1.5vw, 2rem);
 }
 .sub-container a {
   text-decoration: solid 1px black;
-  font-size: clamp(0.6rem, 1.3vw, 2rem);
+  font-size: clamp(1rem, 1.5vw, 2rem);
 }
 .sources a {
-
   font-size: 5px;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 420px) {
+  #main {
+    padding: 0;
+    min-width: 100%;
+  }
+  .sub-container {
+    min-width: 100%;
+    min-height: 35rem;
+  }
+} ;
