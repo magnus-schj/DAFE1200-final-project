@@ -109,15 +109,18 @@ header a {
   text-align: center;
 }
 .sub-container p {
-  font-size: clamp(1rem, 2.5vw, 2rem);
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
 }
 .sub-container a {
-  font-size: clamp(1.3rem, 2vw, 2rem);
+  font-size: clamp(1.4rem, 2vw, 2rem);
 }
 .box-title {
   font-size: clamp(1.4em, 2.5vw, 4em);
   font-family: "roboto", sans-serif;
   text-align: center;
+}
+#UN-goal {
+  text-decoration: underline black 2px;
 }
 
 .main-container p,
