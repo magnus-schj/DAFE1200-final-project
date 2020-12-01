@@ -339,6 +339,10 @@ footer a:hover {
     margin-left: -12px;
   }
 }
+.app_text {
+  style="list-style-type:disc";
+
+}
 
 /* Colors
 #FFFFFF
