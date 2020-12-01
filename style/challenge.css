@@ -14,7 +14,8 @@ main {
   margin: 1rem;
   padding: 0.5rem;
   max-height: 25rem;
-  max-width: 10rem;
+  max-width: 13rem;
+  overflow: auto;
 }
 .sub-container h3 {
   font-size: clamp(1.2rem, 2vw, 3rem);
