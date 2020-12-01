@@ -114,7 +114,7 @@ header:focus {
   border-radius: 5px;
 }
 .sub-container p {
-  font-size: clamp(1.6rem, 2.5vw, 2rem);
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
 }
 .sub-container a {
   font-size: clamp(1.4rem, 2vw, 2rem);
@@ -189,8 +189,8 @@ main a:hover {
   height: 200px;
   padding: 3% 5%;
   background-color: #a9b971;
-  background-color: #1F3037;
-  box-shadow: 0 0 1rem #1F3037;
+  background-color: #1f3037;
+  box-shadow: 0 0 1rem #1f3037;
 }
 
 .goal-column {
