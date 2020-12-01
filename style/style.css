@@ -330,18 +330,18 @@ footer a:hover {
     font-size: 50px;
   }
 }
-
+@media screen and (max-width: 266px) {
+  header h1 {
+    letter-spacing: normal;
+  }
+}
 /* FOOTER */
 @media screen and (max-width: 230px) {
   .footer-container {
     margin-left: -12px;
   }
 }
-.sources a {
 
-  font-size: 11px;
-  text-decoration: solid 1px black;
-}
 /* Colors
 #FFFFFF
 #C4CCA7
