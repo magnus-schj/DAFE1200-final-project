@@ -47,9 +47,9 @@
   margin: 0.5rem;
   padding: 1rem;
   border-radius: 10px;
-  height: 15rem;
-  width: 15rem;
-  background: #a9b971;
+  height: 17rem;
+  width: 17rem;
+  background: #c5db74;
 }
 .example-card p {
   font-size: clamp(0.8rem, 0.4vw, 2rem);
