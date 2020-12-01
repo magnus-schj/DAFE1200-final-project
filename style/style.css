@@ -106,7 +106,7 @@ header:focus {
   border-radius: 5px;
 }
 .sub-container p {
-  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  font-size: clamp(1.1rem, 2.5vw, 2rem);
 }
 .sub-container a {
   font-size: clamp(1.4rem, 2vw, 2rem);
@@ -341,7 +341,11 @@ footer a:hover {
     margin-left: -12px;
   }
 }
+.sources a {
 
+  font-size: 11px;
+  text-decoration: solid 1px black;
+}
 /* Colors
 #FFFFFF
 #C4CCA7
