@@ -48,26 +48,39 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 header h1,
 h2 {
   text-align: center;
   margin: 2rem;
 }
+
 header h1 {
   font-size: clamp(1.7rem, 4vw, 6rem);
   letter-spacing: 0.5rem;
   word-spacing: 0.5rem;
   text-transform: uppercase;
 }
+
 header h2 {
   font-size: clamp(1rem, 3vw, 3rem);
 }
-header a {
-  opacity: 0.5;
+
+header h3 {
+  padding: 10px 5px 10px 5px;
+  border-radius: 5px;
 }
 
+header a {
+  opacity: 0.5;
+  cursor: pointer;
+}
 header a:hover {
   opacity: 1;
+}
+
+header:focus {
+  outline: none;
 }
 
 /* MAIN */
@@ -81,18 +94,6 @@ header a:hover {
   font-size: clamp(1.18rem, 2.5vw, 4rem);
   background-color: #d8e0bb;
   background-color: #e3ebe0;
-}
-
-header h3 {
-  padding: 10px 5px 10px 5px;
-  border-radius: 5px;
-}
-
-header a {
-  cursor: pointer;
-}
-header:focus {
-  outline: none;
 }
 
 #main {
@@ -147,6 +148,7 @@ h1 {
 }
 
 /* Read more button */
+/* 
 .readMore {
   color: white;
   background-color: blue;
@@ -168,6 +170,19 @@ main a {
 }
 main a:hover {
   opacity: 1;
+} */
+
+.read-more {
+  padding: 0.5rem 1rem;
+  /* border: 2px solid #99B387; */
+  border: 2px solid #1f3037;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #7998A5;
+  color: white;
+}
+.read-more:hover {
+  background-color: #1f3037;
 }
 
 /* GOAL */
@@ -249,8 +264,8 @@ main a:hover {
 }
 
 /* FOOTER */
-
-footer {
+/* 
+  footer {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -287,6 +302,16 @@ footer a {
 footer a:hover {
   opacity: 1;
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 255, 1);
+} 
+*/
+
+.footer-container {
+  width: 100%;
+  min-height: 100px;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
 }
 
 /* MEDIA QUERIES */
@@ -329,16 +354,19 @@ footer a:hover {
   .goal-number {
     font-size: 50px;
   }
+  .footer-container {
+    flex-direction: column;
+  }
+  .read-more {
+    align-content: space-around;
+    justify-content: space-around;
+    width: fit-content;
+    margin: 10px 0;
+  }
 }
 @media screen and (max-width: 266px) {
   header h1 {
     letter-spacing: normal;
-  }
-}
-/* FOOTER */
-@media screen and (max-width: 230px) {
-  .footer-container {
-    margin-left: -12px;
   }
 }
 
