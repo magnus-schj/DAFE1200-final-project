@@ -4,6 +4,7 @@
   margin-bottom: 2vh;
   background-color: #d8e0bb;
   border-radius: 5px;
+  padding: 2rem;
 }
 
 .app_section h1 {
@@ -19,7 +20,7 @@
   padding-left: 10px;
   min-width: 50vw;
   font-size: clamp(0.8em, 2vw, 3em);
-  background-color:#d8e0bb ;
+  background-color: #d8e0bb;
   margin-right: 10vw;
   margin-left: 2.5vw;
   margin-bottom: 2vw;
@@ -36,14 +37,12 @@
   height: auto;
 }
 
-/* footer {
-  bottom: 0;
-  background-color: #9ace5b;
-  height: 10vh;
-  width: 100vw;
-  margin-bottom: -20px;
+@media screen and (max-width: 500px) {
+  .pictureandinfo {
+    flex-wrap: wrap-reverse;
+  }
+  .pagepicture {
+    margin: auto;
+    padding: 1rem;
+  }
 }
-.footer-container {
-  position: relative;
-  margin-top: 24px;
-} */
