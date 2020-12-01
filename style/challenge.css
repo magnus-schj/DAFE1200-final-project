@@ -1,6 +1,6 @@
 /* MAIN SECTION */
-main {
-  background: #d8e0bb;
+#main {
+  background: #e9ecdf;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,9 +12,8 @@ main {
   background: white;
   border-radius: 5px;
   margin: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
   min-height: 10vh;
-  max-width: 13rem;
   overflow: auto;
 }
 .sub-container h3 {
@@ -32,12 +31,19 @@ main {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 600px) {
+  #main {
+    width: 95vw;
+  }
+}
 @media screen and (max-width: 420px) {
   #main {
     padding: 0;
     min-width: 100%;
+    border-radius: 0;
   }
   .sub-container {
     min-width: 100%;
+    border-radius: 0;
   }
 } ;

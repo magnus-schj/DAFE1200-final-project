@@ -1,8 +1,7 @@
 .app_section {
   width: 90vw;
-  margin-left: 5vw;
-  margin-bottom: 2vh;
-  background-color: #d8e0bb;
+  margin: 0 auto 2vh;
+  background-color: #e9ecdf;
   border-radius: 5px;
   padding: 2rem;
 }
@@ -17,14 +16,9 @@
   flex-direction: row;
 }
 .pageinfo {
-  margin-top: 1rem;
-  padding-left: 10px;
+  margin: 1rem 2.5vw 2vh;
   min-width: 50vw;
   font-size: clamp(1em, 2.9vw, 3em);
-  background-color: #d8e0bb;
-  margin-right: 10vw;
-  margin-left: 2.5vw;
-  margin-bottom: 2vw;
   border-radius: 5px;
 }
 
@@ -38,6 +32,9 @@
 }
 
 @media screen and (max-width: 500px) {
+  .app_section {
+    width: 100vw;
+  }
   .pictureandinfo {
     flex-wrap: wrap-reverse;
   }
@@ -52,5 +49,6 @@
 @media screen and (max-width: 250px) {
   .app_section {
     padding: 0.5rem;
+    padding-left: 1rem;
   }
 }
