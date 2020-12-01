@@ -48,3 +48,9 @@
     margin: auto;
   }
 }
+
+@media screen and (max-width: 250px) {
+  .app_section {
+    padding: 0.5rem;
+  }
+}
