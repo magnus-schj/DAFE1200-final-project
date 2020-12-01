@@ -102,7 +102,6 @@ header:focus {
 }
 .sub-container {
   min-width: 35vw;
-  height: clamp(25em, 45vw, 100em);
   text-align: center;
   border-radius: 5px;
 }
@@ -145,6 +144,10 @@ h1 {
   left: 10px;
   padding: 0 3px;
   color: black;
+}
+
+.sub-index {
+  padding-bottom: 2rem;
 }
 
 /* Read more button */
