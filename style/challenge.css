@@ -21,11 +21,11 @@ main {
   font-size: clamp(1.2rem, 2vw, 3rem);
 }
 .sub-container p {
-  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-size: clamp(1rem, 2.5vw, 2rem);
 }
 .sub-container a {
   text-decoration: solid 1px black;
-  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-size: clamp(1rem, 2.5vw, 2rem);
 }
 .sources a {
   font-size: 5px;
