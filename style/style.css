@@ -102,7 +102,6 @@ header:focus {
 }
 .sub-container {
   min-width: 35vw;
-  text-align: center;
   border-radius: 5px;
 }
 .sub-container p {
