@@ -4,6 +4,9 @@ main {
   width: 90vw;
   margin-left: 5vw;
 }
+div {
+  font-size: 1.2rem;
+}
 section img {
   width: 150px;
 }
