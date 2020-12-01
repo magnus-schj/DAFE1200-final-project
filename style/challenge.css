@@ -23,3 +23,6 @@ main {
 .sub-container p {
   font-size: clamp(0.6rem, 1.3vw, 2rem);
 }
+.sub-container a {
+  text-decoration: solid 1px black;
+}
