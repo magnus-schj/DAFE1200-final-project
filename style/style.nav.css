@@ -81,6 +81,7 @@ nav {
     filter: none;
     opacity: 1;
     border: 1px solid white;
+    box-shadow: 0 0 5px white;
   }
 
   @media screen and (max-width: 500px) {
