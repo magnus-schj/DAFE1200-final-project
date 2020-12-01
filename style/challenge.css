@@ -12,8 +12,8 @@ main {
   background: white;
   border-radius: 5px;
   margin: 1rem;
-  padding: 1rem;
-  max-height: 21rem;
+  padding: 0.5rem;
+  max-height: 22rem;
   max-width: 10rem;
   overflow: auto;
 }
