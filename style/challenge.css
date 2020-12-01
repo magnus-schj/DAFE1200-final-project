@@ -26,3 +26,8 @@ main {
 .sub-container a {
   text-decoration: solid 1px black;
 }
+.sources a {
+
+  font-size: 5px;
+  text-decoration: underline;
+}
