@@ -71,6 +71,15 @@ header h3 {
   border-radius: 5px;
 }
 
+header > img {
+  max-width: 25vw;
+}
+
+header a img {
+  max-width: 15vw;
+  max-height: 15vw;
+}
+
 header a {
   opacity: 0.5;
   cursor: pointer;
