@@ -20,7 +20,7 @@
   margin-top: 1rem;
   padding-left: 10px;
   min-width: 50vw;
-  font-size: clamp(0.8em, 2vw, 3em);
+  font-size: clamp(1em, 2.3vw, 3em);
   background-color: #d8e0bb;
   margin-right: 10vw;
   margin-left: 2.5vw;
